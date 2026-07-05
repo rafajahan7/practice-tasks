@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css reset is used to style everything by me and to 
+ignore websites assumptions */
+
 h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:bisque;
@@ -17,4 +26,39 @@ p{
 }
 .highlight, .error{
     font-size: larger;
+}
+
+#separate{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    background-color: aquamarine;
+}
+
+.container > em{
+    color: blue;
+}
+
+.container ~ em{
+    color: red;
+}
+
+/* .card{
+    width: 300px;
+    padding: 20px;
+    color: white;
+
+    /* background: linear-gradient(to right, #ff6b81, #ffb6c1); */
+
+   /* border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.card{
+    width: 300px;
+    height: 200px;
+
+    background-image: url("rafa.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }

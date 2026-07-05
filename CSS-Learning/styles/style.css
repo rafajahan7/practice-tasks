@@ -6,3 +6,9 @@ h4{
     border: 20px solid green;
     text-align: center;
 }
+.box{
+    padding: 30px;
+    border: 10px solid aqua;
+    border-radius: 60px;
+    background-color: aquamarine;
+}

@@ -12,3 +12,9 @@ h4{
     border-radius: 60px;
     background-color: aquamarine;
 }
+p{
+    color:brown;
+}
+.highlight, .error{
+    font-size: larger;
+}
